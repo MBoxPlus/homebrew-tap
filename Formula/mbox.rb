@@ -1,12 +1,12 @@
 class Mbox < Formula
-  VERSION = "1.1.6".freeze
+  VERSION = "1.1.7".freeze
   REPO = "MBoxPlus/mbox".freeze
 
   version VERSION
   desc "Missing toolchain for mobile development"
   homepage "https://github.com/#{REPO}"
   url "https://github.com/#{REPO}/releases/download/v#{VERSION}/mbox-#{VERSION}.tar.gz"
-  sha256 "2e427c080aa9cf22e446df882e18fc248e92658450b8e069b1df84b8ebd80c00"
+  sha256 "ed15f89795dc9ac9062fd65a195c2c8f54e4a7d8a8de4ddc3b5ed065252928fe"
   license "GPL-2.0-only"
 
   def install
