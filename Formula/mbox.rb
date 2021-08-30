@@ -36,7 +36,7 @@ class Mbox < Formula
 
   def caveats
     s = <<~EOS
-      Please restart the terminal.
+      \e[33mPlease restart the terminal\e[0m.
       Use 'mbox --help' or 'mbox [command] --help' to display help information about the command.
     EOS
     s += "MBox only supports macOS version ≥ 15.0 (Catalina)" if MacOS.version < :catalina
